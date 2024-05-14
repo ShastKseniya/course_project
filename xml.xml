@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <title>Основные характеристики</title>
+  <equipment>
+    <title>Комплектация:</title>
+    <items>
+      <item>Игровое поле</item>
+      <item>4 фигурки</item>
+      <item>4 справочные карточки</item>
+      <item>16 карточек собственности</item>
+      <item>20 карточек "Шанс"</item>
+      <item>2 карточки "Строительный бонус"</item>
+      <item>80 картонных фишек ресурсов</item>
+      <item>48 пластиковых строительных блоков</item>
+      <item>Пластиковый пентхаус</item>
+      <item>2 игральных кубика</item>
+      <item>Пачка игровых денег</item>
+      <item>Лоток для денег</item>
+      <item>Лоток для ресурсов</item>
+      <item>Правила игры</item>
+    </items>
+  </equipment>
+  <technical_specs>
+    <title>Технические характеристики:</title>
+    <items>
+      <item>Размер коробки: 280x280x165 мм</item>
+      <item>Размер карт: 56x86 мм</item>
+      <item>Вес: 1.19 кг</item>
+    </items>
+  </technical_specs>
+  <additional_specs>
+    <title>Дополнительные характеристики:</title>
+    <items>
+      <item>Страна производства: Ирландия</item>
+      <item>Импортер в РБ: ООО «Хобби Игры» 220092, г. Минск, ул. Притыцкого, 29, БЦ Тивали, офис 536</item>
+    </items>
+  </additional_specs>
+

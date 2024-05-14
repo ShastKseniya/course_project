@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Монополия</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="header__inner"> 
+                <a href="#" class="logo">
+                    <img src="D:\1kr_2sem\курсовой проект\boardgames\img\logo.white.svg" alt="" class="logo__img">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item"><a href="D:\1kr_2sem\курсовой проект\boardgames\index.html" id="catalog1" class="menu__list-link2">Главная</a></li>
+                        <li class="menu__list-item"><a href="D:\1kr_2sem\курсовой проект\boardgames\connection.html" class="menu__list-link2">Помощь</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <h2 class="games__title">Настольная игра "Монополия"</h2>
+        <div class="games">
+            <div class="left-column">
+                <section class="left">
+                    <img class="games__left-img" src="D:\1kr_2sem\курсовой проект\boardgames\img\pic_a4e44414db13f69_1920x9000.webp" alt="">
+                  </section>                 
+              </div>
+            <div class="column">
+                <p class="games__description">Описание:</p>
+                <p class="games__indent">Классика, о которой слышал, наверное, каждый. Простые правила, увлекательный игровой процесс, огромный простор для стратегии и планирования действий, но в то же время содержащая и элементы случайности, все это находится в коробке "Монополия".</p>
+                    <p class="games__description"> Тип игры:</p>
+                    <p  class="games__indent">Карточная, логическая, образовательная</p>
+                    <p class="games__description">Кол-во игрооков: </p>
+                    <p  class="games__indent">2-6 игроков</p>
+                    <p class="games__description">Партия:</p>
+                    <p  class="games__indent">60-120 минут</p>
+                    <p class="games__description">Цена:</p>
+                    <p  class="games__indent"> 80 руб.</p>
+            </div>
+            <div class="column">
+                <p class="games__similar">Похожие игры:</p>
+                <center><a href="D:\1kr_2sem\курсовой проект\boardgames\game3.html"><img class="games__similar-img" src="D:\1kr_2sem\курсовой проект\boardgames\img\pic_cf86c2a58888c31_1024x3000.webp" alt=""></a></center>
+                <p class="games__similar-text">Двор чудес</p>
+                <center><a href="D:\1kr_2sem\курсовой проект\boardgames\game2.html"><img class="games__similar-img" src="D:\1kr_2sem\курсовой проект\boardgames\img\i.webp" alt=""></a></center>
+                <p class="games__similar-text">Уотергейт</p>
+            </div>
+          </div>
+          <br>
+          <hr>
+          <script>
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    var xmlDoc = this.responseXML;
+                    var x = xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+                    document.getElementById("output").innerHTML = x;
+                }
+            };
+            xhttp.open("GET", "xml.xml", true);
+            xhttp.send();
+        </script>
+          <section class="rules">
+              <h2 class="rules__title">Основные характеристики</h2>
+            <p class="equipment__title">Комплектация:</p>
+            <div>
+               <div class="games__equipment">
+                <li >Игровое поле</li>
+                <li>4 фигурки</li>
+                <li>4 справочные карточки</li>
+                <li>16 карточек собственности</li>
+                <li>20 карточек "Шанс"</li>
+                <li>2 карточки "Строительный бонус"</li>
+                <li>80 картонных фишек ресурсов</li>
+                <li>48 пластиковых строительных блоков</li>
+                <li>Пластиковый пентхаус</li>
+                <li>2 игральных кубика</li>
+                <li>Пачка игровых денег</li>
+                <li> Лоток для денег</li>
+                <li>Лоток для ресурсов</li>
+                <li>Правила игры</li> 
+                </div>
+                <div class="games__equipment"></div>
+                    <ul>  <p class="equipment__title">Технические характеристики:</p>
+                    <li>Размер коробки: 280x280x165 мм</li>
+                        <li>Размер карт: 56x86 мм</li>
+                            <li> Вес: 1.19 кг</li> </ul>
+            </div>
+            <div class="games__equipment"></div>
+               <ul><p class="equipment__title"> Дополнительные характеристики:</p>
+                <li>Страна производства: Ирландия</li>
+                <li> Импортер в РБ: ООО «Хобби Игры» 220092, г. Минск, ул. Притыцкого, 29, БЦ Тивали, офис 536</li></ul>
+            </div>
+            </div>
+          </section>
+          <hr>
+          <div class="video-container">
+            <div class="video__block">
+              <h2 class="video__title-1">Обзор</h2>
+              <iframe class="video" src="https://www.youtube.com/embed/lBLoBaaq5-M?si=BQ8N4slCLXogq-Uh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="video__block">
+              <h2 class="video__title-2">Правила игры</h2>
+              <iframe class="video" src="https://www.youtube.com/embed/7tuFU4YH51A?si=uP4v94o9BEYlSMko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+         </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <nav class="menu_footer">
+                <ul class="menu__list_footer">
+                    <li class="menu__list-item"><a href="#" class="menu__list-link_footer"><img src="D:\1kr_2sem\курсовой проект\boardgames\img\logo.white.svg" alt="" class="logo__img"></a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-link_footer">Индивидуальный предприниматель Шастовская Ксения Сергеевна
+                        <p>УНП: 476408379</p>
+                       <p>Адрес: г. Минск, ул. Куйбышева, 45-3</p> 
+                        <p>Свидетельство о гос. регистрации: 476408379 от 04.02.2024,</p>
+                        <p>выдано Минским горисполкомом</p>
+                        <p>Интернет-магазин boardgames.by зарегестрирован в </p>
+                        <p>торговом реестре РБ от 14.03.2024</p></a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-link_footer">+375(29)596-04-31(MTC)      
+                          <p>+375(33)456-45-85(A1)</p> 
+                        <p>+375(44)230-07-46(Velcom)</p>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+   </div>
+</body>
+</html>
