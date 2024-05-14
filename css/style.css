@@ -1,0 +1,620 @@
+html{
+    box-sizing: border-box;
+    background-color: #F8F9F9;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+html, body{
+    height: 100%;
+}
+.section-title{
+
+    margin-bottom: 60px;
+    font-style: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+.wrapper{
+min-height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+
+body{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.3;
+  
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .header__inner {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .logo,
+  .menu {
+      flex-grow: 0;
+      align-items: center;
+  }
+
+  .menu {
+      text-align: left;
+      margin-top: 10px;
+  }
+
+  .menu__list {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+}
+
+
+
+.menu {
+  display: flex;
+}
+.header{
+    background-color: #224891;
+    justify-content: space-between;
+  min-width: auto;
+}
+.header-main{
+  background-color: transparent;
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  right: 0;
+}
+
+.header__inner{
+    padding-top: 44px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.menu__list{
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+.menu__list-link{
+    color: #224891;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.menu__list-link2{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 20px;
+
+    
+}
+.logo__img{
+align-items: center;
+margin-left: 15px;
+
+}
+
+
+
+.copy__nav-item{
+   display: flex;
+  justify-content: right;
+    
+}
+.main{
+    flex-grow: 1;
+}
+.footer{
+  display: flex;
+  background-color:  #224891;
+  min-width: auto;
+  padding: 44px 0 44px;
+  color: white;
+  flex-direction: row-reverse
+
+  
+}
+.footer__copy-text{
+
+text-align: center;
+
+}
+.menu__list_footer{
+    display: flex;
+    column-gap: 260px;
+}
+.menu__list-link_footer{
+    color: white;
+  
+   
+}
+.menu__list_footer{
+    display: flex;
+    margin: 40px;
+}
+
+
+
+@media (max-width: 768px) {
+  .menu__list_footer {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .menu__list-item {
+      margin-bottom: 20px;
+      text-align: center;
+  }
+
+  .menu__list-link_footer p {
+      margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu__list-link_footer p {
+      font-size: 14px;
+  }
+}
+
+.top{
+  color: #224891;
+  text-align: center;
+  padding-top: 205px;
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  right: 0;
+}
+.title{
+    padding-top: 80px;
+    padding-bottom: 100px;
+  font-size: 65px;
+  font-weight: 700px;
+}
+
+.swiper-slide{
+    height: 100vh;
+}
+.why-lease{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.why-lease__list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    text-align: center;
+
+}
+.why-lease__item-img{
+    margin-bottom: 15px;
+}
+.why-lease__item-title{
+    margin-bottom: 60px;
+   
+}
+.why-lease__item-img{
+width: 200px;
+height: 200px;
+}
+.img__main1{
+height: 500px;
+}
+.why-lease__item-img-wrapper {
+  perspective: 1000px;
+}
+
+.why-lease__item-img {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.cols{
+    margin: 30px;
+}
+.textcols {
+	white-space: nowrap;
+}
+.textcols-item {
+	white-space: normal;	
+	display: inline-block;
+	width: 15%;
+	vertical-align: top;
+  border: 1px solid #224891;
+	
+}
+.textcols .textcols-item{
+	margin-right: 6%;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+h4{
+    color: #224891;
+    font-size: 20px;
+}
+
+
+
+
+.contacts{
+    padding: 25px 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.contacts__title{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.contacts__text{
+text-align: center;
+padding: 0 100px;
+font-weight: 700;
+font-size: 20px;
+margin-bottom: 15px;
+}
+form{
+    min-width: 600px;
+    margin: 0 auto;
+    margin-left: 300px;
+}
+.form__textarea{
+    width: 250px;
+    height: 70px;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+.form__input{
+    margin: 10px 0 10px;
+    width: 250px;
+    height: 35px;
+}
+.form__input::placeholder{
+    font-size: 15px;
+}
+.form__textarea::placeholder{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.form__btn{
+    color: #ffffff;
+    background-color: #224891;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding: 7px 20px; 
+    margin-left: -180px;  
+}
+.contacts__text-1{
+    font-size: 18px;
+}
+.button{
+    padding-left: 610px;
+}
+/*games2*/
+.games__title{
+margin-top: 35px;
+margin-left: 60px;
+margin-bottom: 30px;
+font-size: 35px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .games {
+    height: 100%;
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+  }
+
+  .column:first-child,
+  .column:nth-child(2) {
+    flex-basis: 45%;
+  }
+
+  .column:last-child {
+    flex-basis: 10%;
+  }
+  .left {
+    margin-bottom: 10px;
+  }
+  .left-column {
+    margin-left: 40px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+    .left-column__right{
+         display: flex;
+  flex-direction: column;
+    }
+    .games__left-img{
+        height: 350px;
+        width: 350px;
+        
+
+    }
+    .games__right-img{
+        height: 170px;
+        width: 170px;
+    }
+
+    .right-column {
+      flex-grow: 1;
+    }
+    .games__lit{
+        flex-direction: column;
+
+    }
+    .games__description{
+    margin-left: 8px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .games__indent{
+        text-indent: 2px;
+        font-size: 18px;
+    }
+    .games__similar{
+        margin-left: 8px;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+    .games__similar-img{
+    height: 120px;
+    width: 120px;
+    }
+    .games__similar-text{
+        text-align: center;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    /*комплектация*/
+    .rules{
+       
+        margin: 20px;
+    }
+    .equipment__title{
+    font-weight: 600;
+    margin-bottom: 5px;
+    }
+    .games__equipment{
+        margin-bottom: 10px;
+        columns: 3;
+  counter-reset: cntr;
+    }
+    .rules__title{
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    technical_specs, additional_specs{
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+    item{
+      margin-bottom: 10px;
+      columns: 3;
+    counter-reset: cntr;
+    }
+    equipment{
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+    title{
+      text-align: center;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    /*video*/ 
+    .video-container {
+        display: flex;
+      }
+      .video{
+        margin: 5px;
+        width: 710px; 
+        height: 400px ;
+      }
+      .video__title {
+       
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      }
+  
+      .video__title-1{
+        margin-top: 25px;
+        margin-bottom: 15px;
+
+      }
+      .video__title-2{
+        margin-top: 25px;
+        margin-bottom: 15px;
+
+      }
+      /*наличие*/
+      .catalog1{
+text-align: center;
+display: flex;
+flex-direction: row-reverse
+
+      }
+
+      /*наличие*/
+    .iframe1{
+        border: none;
+    }
+   
+/*вопросы в помощи*/
+.textcols-container {
+    display: flex;
+    flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+
+  }
+  
+  .textcols-item {
+    flex: 0 0 20%;
+    margin-bottom: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  
+  .textcols-item h4 {
+    cursor: pointer;
+  }
+  
+  .textcols-item .content {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .title__question {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+    /*адаптив*/
+    @media (max-width: 1180px) {
+        .why-lease{
+            gap: 30px 20px;
+        }
+        .why-lease__item-img{
+            width: 100%;
+        }
+    }
+        
+    @media (max-width: 860px) {
+        .why-lease,  .footer{
+            grid-template-columns: repeat(2, 1fr);
+        }
+        
+    }
+    /*ига адаптив*/
+    
+
+    
+      
+    
+      
+      .left {
+        margin-bottom: 10px;
+      }
+      
+      .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      
+      .games__description {
+        font-weight: bold;
+        margin-top: 10px;
+      }
+      
+      .games__indent {
+        margin-top: 5px;
+      }
+      
+      .games__similar {
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      
+      .games__similar-img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+      
+      .games__similar-text {
+        text-align: center;
+      }
+      
+
+
+      .video-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .video__block {
+        flex: 1;
+        margin-right: 20px;
+      }
+      
+      .video__title-1,
+      .video__title-2 {
+        margin-left: 20px;
+      }
+      
+      .video {
+        width: 100%;
+        height: 350px;
+      }
+      /*вопросы при наведении*/
+      .textcols-item .content {
+        display: none;
+       
+      }
+      
+      .textcols-item:hover .content {
+        display: block;
+      }
+      .textcols-item.active .content {
+        display: block;
+      }
+      
+    

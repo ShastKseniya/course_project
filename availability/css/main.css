@@ -1,0 +1,333 @@
+body, html {
+	background-color: #F8F9F9;
+	height: 100%;
+}
+
+h3, h4 {
+	font-family: 'Merriweather', serif;
+
+}
+
+.header {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.product-img {
+	width: 265px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.item-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+	font-family: 'Merriweather', serif;
+	height: 70px;
+	color: #000000;
+}
+a.link__img__1{
+    text-decoration: none;
+    color: inherit;
+}
+
+.details-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 25px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.items {
+	font-family: 'Merriweather', serif;
+	background: #b0bcd2;
+	border-radius: 8px;
+	width: 120px;
+	display: flex;
+	font-size: 18px;
+	height: 30px;
+	overflow: hidden;
+}
+
+.items__control {
+	width: 40px;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+	text-align: center;
+}
+
+.items__control:hover {
+    background: #224891;
+    color: #FFF;
+}
+
+.items__current {
+	width: 40px;
+}
+
+/* items--small */
+.items.items--small {
+	width: 90px;
+	font-size: 16px;
+	height: 26px;
+	text-align: center;
+}
+
+.items.items--small .items__control {
+	width: 30px;
+}
+
+.items.items--small .items__current {
+	width: 30px;
+}
+
+.price {
+	text-align: left;
+}
+
+.price__weight {
+	color: #0088ff!important;
+	font-size: 80%;
+	line-height: 1;
+}
+
+.price__currency {
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 1;
+}
+
+.btn-outline-warning {
+    color: #000000;
+    border-color: #000000;
+}
+
+.btn-outline-warning:hover {
+    color: #FFF;
+    background-color: #224891;
+    border-color: #224891;
+}
+
+
+.cart-item__top {
+	display: flex;
+	align-items: flex-start;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #dee2e6;
+	margin-bottom: 15px;
+}
+
+
+.cart-item__img img {
+	max-width: 100px;
+	height: auto;
+}
+
+.cart-item__desc {
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+.cart-item__title {
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+    line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.cart-item__weight {
+    color: #6c757d!important;
+    font-size: 80%;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.cart-item__details {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.cart-item__details .price__currency {
+	font-size: 18px;
+	margin-left: 15px;
+}
+
+.cart-total {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+
+.free {
+	color: #30f34a;
+}
+
+.total-price {
+	color: #224891;
+}
+
+.rouble {
+	color: #224891;
+}
+
+.none {
+	display: none;
+}
+.container mb-5{
+	display: flex;
+}
+.col-md-6{
+	flex: 1;
+        margin: 10px;
+        padding: 10px;
+}
+.cart-item__details{
+	display: flex;
+	justify-content: center
+}
+.hidden {
+	display: none;
+}
+
+.col-md-4{
+	margin-left: 365px;
+}
+
+.product-img{
+	height: 280px;
+	width: 280px;
+	margin-left: 45px;
+}
+.button__more{
+	margin-bottom: 15px;
+display: flex;
+margin-left: 30px;
+	
+}
+.btn-primary{
+margin-left: 110px;
+background-color: #224891;
+}
+
+
+
+
+
+
+/*форма*/
+.contacts{
+    padding: 25px 0 50px;
+	margin-left: 80px;
+
+    
+}
+.contacts__title{
+    margin-bottom: 10px;
+	margin-left: 40px;
+}
+form{
+    
+    margin: 0 auto;
+    padding-left: 40px;
+	
+}
+
+.form__input{
+  
+    width: 250px;
+    height: 35px;
+}
+.form__input::placeholder{
+    font-size: 15px;
+}
+
+.form__btn{
+    color: #ffffff;
+    background-color: #224891;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding: 7px 20px; 
+}
+.button__form__two{
+margin-left: 60px;
+}
+.contacts__text-1{
+    font-size: 18px;
+}
+.form__input1{
+    width: 250px;
+    height: 35px;
+	margin-bottom: 30px;
+}
+/*адаптивность*/
+
+
+.card {
+	margin-bottom: 20px;
+  }
+  
+  .card-body {
+	padding: 20px;
+  }
+  
+  .card-title {
+	font-size: 20px;
+	margin-bottom: 10px;
+  }
+  
+  .alert {
+	margin-bottom: 10px;
+  }
+  
+  .cart-wrapper {
+	margin-bottom: 20px;
+  }
+  
+  .cart-total {
+	margin-top: 20px;
+  }
+  
+  .rouble {
+	font-size: 16px;
+  }
+  #order-form {
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top: 1px solid #ccc;
+  }
+  @media (min-width: 768px) {
+	.col-md-4 {
+	  flex: 0 0 33%;
+	  max-width: 33%;
+	}
+  }
+  /* Общие стили для выравнивания по центру */
+.row {
+	display: flex;
+	justify-content: center;
+  }
+  
+  /* Стили для десктопной версии */
+  @media (min-width: 768px) {
+	.col-xs-12.col-sm-6 {
+	  max-width: 50%;
+	  flex: 0 0 50%;
+	}
+  }
+  
+  /* Стили для мобильной версии */
+  @media (max-width: 767px) {
+	.col-xs-12.col-sm-6 {
+	  max-width: 100%;
+	  flex: 0 0 100%;
+	}
+  }
+  
